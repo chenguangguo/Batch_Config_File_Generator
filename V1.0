@@ -14,10 +14,10 @@ this is the test value E:$User_Def_Value5
 #--------------------------------------------------配置模板区开始--------------------------------------------------
 import xlrd
 data = xlrd.open_workbook('User_Def_Value.xls') 			# 打开xls文件
-table = data.sheets()[0] 									            # 打开第一张sheet
-nrows = table.nrows      									            # 获取sheet总行数
-for i in range(nrows):   									            # 循环逐行获取数值输出文件
-		if i == 0:		 									                  # 跳过表头
+table = data.sheets()[0] 						# 打开第一张sheet
+nrows = table.nrows      						# 获取sheet总行数
+for i in range(nrows):   						# 循环逐行获取数值输出文件
+		if i == 0:		 				# 跳过表头
 			continue
 		Batch_Config_File_Name = table.row_values(i)[5]		# sheet中每行第5(F)列数值作为文件名
 		User_Def_Value1 = table.row_values(i)[0]
