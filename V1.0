@@ -4,11 +4,11 @@
 from string import Template
 Template_Config = Template("""
 
-this is the test value A:$User_Def_Value1
-this is the test value B:$User_Def_Value2
-this is the test value C:$User_Def_Value3
-this is the test value D:$User_Def_Value4
-this is the test value E:$User_Def_Value5
+this is test value A:$User_Def_Value1
+this is test value B:$User_Def_Value2
+this is test value C:$User_Def_Value3
+this is test value D:$User_Def_Value4
+this is test value E:$User_Def_Value5
 
 """)
 #--------------------------------------------------配置模板区开始--------------------------------------------------
