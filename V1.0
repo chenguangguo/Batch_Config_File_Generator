@@ -33,6 +33,6 @@ for i in range(nrows):   						# 循环逐行获取数值输出文件
 			'User_Def_Value4' : User_Def_Value4,
 			'User_Def_Value5' : User_Def_Value5,
 			}
-		with open('%s.cfg' % Batch_Config_File_Name, 'w') as s:
-			s.write(Template_Config.safe_substitute(User_Def_Variable))
+		with open('%s.cfg' % Batch_Config_File_Name, 'w') as Full_Config:
+			Full_Config.write(Template_Config.safe_substitute(User_Def_Variable))
    
