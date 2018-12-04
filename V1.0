@@ -26,7 +26,6 @@ for i in range(nrows):   						# 循环逐行获取数值输出文件
 		User_Def_Value4 = table.row_values(i)[3]
 		User_Def_Value5 = table.row_values(i)[4]
 		User_Def_Variable = {
-			'Batch_Config_File_Name' : Batch_Config_File_Name,
 			'User_Def_Value1' : User_Def_Value1,
 			'User_Def_Value2' : User_Def_Value2,
 			'User_Def_Value3' : User_Def_Value3,
